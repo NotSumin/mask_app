@@ -1,0 +1,5 @@
+pip==25.0.1
+streamlit==1.50.0
+tensorflow==2.16.2
+torchaudio==2.11.1
+ultralytics==8.4.193
