@@ -64,7 +64,7 @@ if mode == "이미지":
 # 2. 웹캠 탐지
 # -------------------------------------------------------------
 elif mode == "웹캠":
-    st.write("웹캠 영상은 브라우저 보안 정책상 HTTPS 환경이나 Localhost 환경에서만 작동합니다.")
+    st.write("웹캠 실시간 탐지")
     
     try:
         ice_servers = get_cloudflare_ice_servers()
